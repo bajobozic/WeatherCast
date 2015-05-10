@@ -1,0 +1,80 @@
+<resources>
+
+  <!--  &lt;!&ndash; Base application theme. &ndash;&gt;
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="AppTheme">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="actionBarStyle">@style/MyActionBarStayl</item>
+        <item name="popupMenuStyle">@style/MyActionBarStaylPopup</item>
+        <item name="dropDownListViewStyle">@style/MyActionBarStaylDropDown</item>
+        <item name="actionBarWidgetTheme">@style/BridgeStyle</item>
+
+
+    </style>
+
+    <style name="MyActionBarStayl" parent="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="logo">@mipmap/ic_launcher</item>
+
+    </style>
+
+    <style name="MyActionBarStaylPopup" parent="Widget.AppCompat.Light.ListPopupWindow">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:popupBackground">@color/primary</item>
+
+
+    </style>
+
+    <style name="MyActionBarStaylDropDown" parent="Widget.AppCompat.ListView.DropDown">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:listSelector">@color/primary_dark</item>
+
+
+    </style>
+
+
+    <style name="BridgeStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="popupMenuStyle">@style/MyActionBarStaylPopup</item>
+        <item name="dropDownListViewStyle">@style/MyActionBarStaylDropDown</item>
+
+    </style>
+
+
+
+
+-->
+
+
+    <!-- Base application theme. -->
+    <style name="AppToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="popupTheme">@style/PopupTheme</item>
+    </style>
+
+
+    <style name="PopupTheme" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:background">@color/list_background</item>
+    </style>
+
+    <style name="PopupThemeText" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="SettingsStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+
+
+
+
+
+</resources>

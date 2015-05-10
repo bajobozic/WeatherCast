@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?attr/listPreferredItemHeight">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="@color/list_date_color"
+            android:paddingLeft="10dp"
+            android:typeface="normal"
+            android:textStyle="normal"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/condition"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="@color/list_condition_color"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/min"
+            android:textColor="@color/list_temperature_color"
+            android:typeface="normal"
+            android:paddingRight="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+            <!--android:textIsSelectable="true"-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/max"
+            android:textColor="@color/list_temperature_color"
+            android:typeface="monospace"
+            android:paddingRight="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

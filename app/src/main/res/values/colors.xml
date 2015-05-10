@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#ff1e0dff</color>
+    <color name="list_background">#00B8D4</color>
+    <!--<color name="list_background">#00E5FF</color>-->
+    <color name="list_date_color">#84FFFF</color>
+    <color name="list_condition_color">#A7FFEB</color>
+    <color name="list_temperature_color">#FFFF00</color>
+    <color name="color_white">#FFFFFF</color>
+</resources>

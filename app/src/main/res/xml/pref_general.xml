@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="@string/pref_location_label"
+        android:key="@string/pref_location_key"
+        android:defaultValue="@string/pref_location_default"
+        android:inputType="text"
+        android:singleLine="true"
+        android:hint="Ener city name or postal code"/>
+
+    <ListPreference
+        android:title="@string/pref_degrees_title"
+        android:key="@string/pref_degrees_key"
+        android:defaultValue="@string/pref_list_default"
+        android:entries="@array/pref_degrees_entries"
+        android:entryValues="@array/pref_degrees_entries_values"
+         />
+    <CheckBoxPreference
+        android:title="@string/pref_delete_db"
+        android:key="@string/deletedb_key"
+        android:defaultValue="@string/deletedb_default"/>
+
+</PreferenceScreen>
